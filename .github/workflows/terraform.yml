@@ -22,6 +22,5 @@ jobs:
 
       - name: Terraform Apply - Dev
         run: |
-          cd terraform/dev
           terraform init
           terraform apply -auto-approve
